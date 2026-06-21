@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller
+build/
+*.spec
+
+# 用户本地测试文件
+*.mflac
+*.mgg
+decoded/
+mp3/
+out/
+tmp/
+
+# 工具运行时缓存（用户机器上生成，不入库）
+.mflac_mp3_ui/
+
+# IDE / OS
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+
+# 仅 release 目录保留 exe，dist 为本地打包输出
+dist/
